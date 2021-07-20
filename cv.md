@@ -26,3 +26,18 @@ I am recently studying front-end development, I want to develop in this directio
    - Figma (layouts)
    - Photoshop (layouts)
    - Vscode
+
+## Work experience
+--
+
+## Education
+Secondary Education
+
+Completed several video courses
+- (Udemy) Ivan Petrichenko - Web Developer 2020 
+- Brainscloud - HTML & CSS for Beginners (2019)
+- BrainsCloud - Professional, fast and comfortable website layout
+
+## Languages
+- Russian
+- English - A1 (Beginner)
