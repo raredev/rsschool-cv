@@ -4,7 +4,7 @@
 - **E-mail:** alexon7194@gmail.com
 - **Vkontakte:** [alexon216](https://vk.com/alexon216)
 - **Github:** [raredev](https://github.com/raredev)
-- **Discord:** **Rare#3010**
+- **Discord:** Rare#3010
 
 ## About me
 *I study front-end development, it is interesting to develop in this direction, learn new skills, in the future I would like to find a job*
