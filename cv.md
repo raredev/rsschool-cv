@@ -1,42 +1,42 @@
 #  Alexey Popov
 ## Contacts
-- Location: Russia, Yaroslavl
-- E-mail: alexon7194@gmail.com
-- Discord: ***Rare#3010***
-- [VK](https://vk.com/alexon216)
-- [GitHub](https://github.com/raredev)
+- **Location:** Russia, Yaroslavl
+- **E-mail:** alexon7194@gmail.com
+- **Vkontakte:** [alexon216](https://vk.com/alexon216)
+- **Github:** [raredev](https://github.com/raredev)
+- **Discord:** **Rare#3010**
 
 ## About me
-I am recently studying front-end development, I want to develop in this direction, learn new skills, find a promising job
-
-***Personal qualities:***
-- perseverance
-- non-conflict
-- responsiveness
-- honesty
+*I study front-end development, it is interesting to develop in this direction, learn new skills, in the future I would like to find a job*
 
 ## Skills
-- HTML5
-- CSS3
-- SASS (Scss)
+- HTML5, CSS3
+- JavaScript (basic)
+- SASS/SCSS
 - BEM
-- Git
 - Gulp
-* **Tools:**
+- Git
+- **Tools:**
    - Figma (layouts)
    - Photoshop (layouts)
    - Vscode
 
-## Work experience
---
+## Code example
+    function printNumbers(initialNumber) {
+      for (let i = 0; i <= initialNumber; i++) {
+         console.log(i);
+      }
+      console.log('finish');
+    }
+    printNumbers(10)
 
-## Education
-Secondary Education
+## Experience
+- https://ru.code-basics.com/
+- https://learn.javascript.ru/ (processing)
 
-Completed several video courses
+Completed video courses:
 - (Udemy) Ivan Petrichenko - Web Developer 2020 
-- Brainscloud - HTML & CSS for Beginners (2019)
-- BrainsCloud - Professional, fast and comfortable website layout
+- Brainscloud (youtube)
 
 ## Languages
 - Russian
