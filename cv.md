@@ -22,13 +22,13 @@
    - Vscode
 
 ## Code example
-    function printNumbers(initialNumber) {
-      for (let i = 0; i <= initialNumber; i++) {
-         console.log(i);
-      }
-      console.log('finish');
-    }
-    printNumbers(10)
+    const reverseString = (str) => {
+       let result = '';
+       for (let i = 0; i < str.length; i += 1) {
+          result = str[i] + result;
+       }
+       return result;
+    };
 
 ## Experience
 - https://ru.code-basics.com/
