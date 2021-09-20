@@ -31,9 +31,10 @@
     };
     console.log(reverseString('hello'));
 
-## Experience
-- https://ru.code-basics.com/
-- https://learn.javascript.ru/ (processing)
+## Education
+- RS School - JavaScript/Front-end.Stage 0
+- (https://ru.code-basics.com/)
+- (https://learn.javascript.ru/) (processing)
 
 Completed video courses:
 - (Udemy) Ivan Petrichenko - Web Developer 2020 
