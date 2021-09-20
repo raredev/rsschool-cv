@@ -32,7 +32,7 @@
     console.log(reverseString('hello'));
 
 ## Education
-- RS School - JavaScript/Front-end.Stage 0
+- [RS School - JavaScript/Front-end.Stage 0](https://rs.school/js-stage0/)
 - [ru.code-basics.com](https://ru.code-basics.com/)
 - [learn.javascript.ru](https://learn.javascript.ru/) (processing)
 
