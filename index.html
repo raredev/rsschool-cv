@@ -10,44 +10,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="burger">
+        <span></span>
+    </div>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#contacts" class="menu__item-link">Contacts</a>
+            </li>
+            <li class="menu__item">
+                <a href="#about" class="menu__item-link">About Me</a>
+            </li>
+            <li class="menu__item">
+                <a href="#education" class="menu__item-link">Education</a>
+            </li>
+            <li class="menu__item">
+                <a href="#languages" class="menu__item-link">Languages</a>
+            </li>
+            <li class="menu__item">
+                <a href="#skills" class="menu__item-link">Skills</a>
+            </li>
+            <li class="menu__item">
+                <a href="#code" class="menu__item-link">Code</a>
+            </li>
+            <li class="menu__item">
+                <a href="#projects" class="menu__item-link">Projects</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container">
-        <div class="burger">
-            <span></span>
-        </div>
-        
-        <nav class="nav">
-
-
-            <ul class="menu">
-                <li class="menu__item">
-                    <a href="#contacts" class="menu__item-link">Contacts</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#about" class="menu__item-link">About Me</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#education" class="menu__item-link">Education</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#skills" class="menu__item-link">Skills</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#code" class="menu__item-link">Code Example</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#works" class="menu__item-link">My Works</a>
-                </li>
-                <li class="menu__item">
-                    <a href="#languages" class="menu__item-link">Languages</a>
-                </li>
-            </ul>
-        </nav>
-
-
-
         <header class="header">
-            <a class="header__avatar">
+            <a class="header__avatar" href="index.html">
                     <img src="img/avatar.png" alt="avatar">
             </a>
             <div class="header__text">
@@ -55,63 +49,68 @@
                 <h2 class="header__subtitle">Front-end developer</h2>
             </div>
         </header>
-
         <main class="main">
             <div class="main__wrap">
                 <section class="main__section">
                     <h3 id="contacts">Contacts</h3>
-                    <ul class="contacts">
-                        <li class="contacts__item">
-                            <span>
-                                <img src="img/icons/location.svg" alt="location">
-                            </span>
-                            <div class="contacts__link">Russia, Yaroslavl</div>
-                        </li>
-                        <li class="contacts__item">
-                            <span>
-                                <img src="img/icons/discord.svg" alt="discord">
-                            </span>
-                            <div class="contacts__link">Rare#3010</div>
-                        </li>
-                        <li class="contacts__item">
-                            <span>
-                                <img src="img/icons/vk.svg" alt="vk">
-                            </span>
-                            <a href="https://vk.com/alexon216" class="contacts__link" target="_blank">vk.com/alexon216</a>
-                        </li>
-                        <li class="contacts__item">
-                            <span>
-                                <img src="img/icons/github.svg" alt="github">
-                            </span>
-                            <a href="https://github.com/raredev" class="contacts__link" target="_blank">github.com/raredev</a>
-                        </li>
-                        <li class="contacts__item">
-                            <span>
-                                <img src="img/icons/mail.svg" alt="mail">
-                            </span>
-                            <a href="mailto:alexon7194@gmail.com" class="contacts__link" target="_blank">alexon7194@gmail.com</a>
-                        </li>
-                    </ul>
+                        <ul class="contacts">
+                            <li class="contacts__item">
+                                <span>
+                                    <img src="img/icons/location.svg" alt="location">
+                                </span>
+                                <div class="contacts__link">Russia, Yaroslavl</div>
+                            </li>
+                            <li class="contacts__item">
+                                <span>
+                                    <img src="img/icons/discord.svg" alt="discord">
+                                </span>
+                                <div class="contacts__link">Rare#3010</div>
+                            </li>
+                            <li class="contacts__item">
+                                <span>
+                                    <img src="img/icons/vk.svg" alt="vk">
+                                </span>
+                                <a href="https://vk.com/alexon216" class="contacts__link" target="_blank">vk.com/alexon216</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span>
+                                    <img src="img/icons/github.svg" alt="github">
+                                </span>
+                                <a href="https://github.com/raredev" class="contacts__link" target="_blank">github.com/raredev</a>
+                            </li>
+                            <li class="contacts__item">
+                                <span>
+                                    <img src="img/icons/mail.svg" alt="mail">
+                                </span>
+                                <a href="mailto:alexon7194@gmail.com" class="contacts__link" target="_blank">alexon7194@gmail.com</a>
+                            </li>
+                        </ul>
                 </section>
+
                 <section class="main__section">
                     <div class="about">
                         <h3 id="about">about me</h3>
                         <p>I study front-end development, it is interesting to develop in this direction, learn new skills, in the future I would like to find a job</p>
                     </div>
-
+                    <hr>
                     <div class="education">
                         <h3 id="education">Education</h3>
-                        <ul>
-                            <li><a href="https://rs.school/js-stage0/">RS School - JavaScript/Front-end.Stage 0</a></li>
-                            <li><a href="https://ru.code-basics.com">ru.code-basics.com</a> (completed)</li>
-                            <li><a href="https://learn.javascript.ru">learn.javascript.ru</a> (processing)</li>
-                            <li><h4>Completed video courses:</h4></li>
-                            <li>(Udemy) Ivan Petrichenko - Web Developer 2020</li>
-                            <li>Brainscloud (youtube)</li>
-                        </ul>
+                        <a class="education__link" href="https://rs.school/js-stage0/" target="_blank">RS School - JavaScript/Front-end.Stage 0</a>
+                        <a class="education__link" href="https://ru.code-basics.com" target="_blank">ru.code-basics.com</a>
+                        <a class="education__link" href="https://learn.javascript.ru" target="_blank">learn.javascript.ru</a>
+                        <h4>Completed video courses:</h4>
+                        <p>(Udemy) Ivan Petrichenko - Web Developer 2020</p>
+                        <p>Brainscloud (youtube)</p>
+                    </div>
+                    <hr>
+                    <div class="languages">
+                        <h3 id="languages">languages</h3>
+                        <p>Russian</p>
+                        <p>English - A1 (Beginner)</p>
                     </div>
                 </section>
             </div>
+
             <div class="main__wrap">
                 <section class="main__section">
                     <h3 id="skills">Skills</h3>
@@ -128,31 +127,25 @@
                     </ul>
                 </section>
 
-                <div class="main__section code">
+                <section class="main__section code">
                     <h3 id="code">Code example</h3>
-                    <pre><code>
-const reverseString = (str) => {
-    let result = '';
-    for (let i = 0; i &lt; str.length; i++) {
-        result = str[i] + result;
-    }
-    return result
-};
-console.log(reverseString('hello'));
-                    </code></pre>
-                </div>
-
-
+                    <pre>
+                        <code>
+    const reverseString = (str) => {
+        let result = '';
+        for (let i = 0; i &lt; str.length; i++) {
+            result = str[i] + result;
+        }
+        return result
+    };
+    console.log(reverseString('hello'));
+                        </code>
+                    </pre>
+                </section>
             </div>
 
             <section class="main__section">
-                <h3 id="works">My Works</h3>
-            </section>
-
-            <section class="main__section">
-                <h3 id="languages">languages</h3>
-                <p>Russian</p>
-                <p>English - A1 (Beginner)</p>
+                <h3 id="projects">Projects</h3>
             </section>
         </main>
 
